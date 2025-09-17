@@ -9,6 +9,13 @@ A minimal blockchain implementation in Python with Proof of Work and transaction
 - Proof-of-Work consensus
 - Blockchain validation
 - Simple REST API using Flask
+- ##🌐 API Endpoints
+
+GET /mine_block → Mine a new block
+
+GET /get_chain → View blockchain
+
+GET /is_valid → Validate blockchain
 
 ## ▶️ Run the Project
 ```bash
@@ -21,3 +28,4 @@ pip install -r requirements.txt
 
 # Start the blockchain node
 python node.py
+

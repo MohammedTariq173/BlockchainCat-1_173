@@ -10,7 +10,7 @@ A minimal blockchain implementation in Python with Proof of Work and transaction
 - Blockchain validation
 - Simple REST API using Flask
 
-##🌐 API Endpoints
+## 🌐 **API Endpoints**
 
 GET /mine_block → Mine a new block
 

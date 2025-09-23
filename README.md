@@ -1,12 +1,11 @@
-# 🪙 BlockchainCat-1_173
 ## Simple Blockchain Project
 
 A minimal blockchain implementation in Python that demonstrates the **core concepts of blockchain technology**.  
-This project is designed for educational use in college-level projects to help students understand how blockchains work internally.
+This project is designed for educational use in college-level projects to help understand how blockchains work internally.
 
 ---
 
-## 📘 Project Introduction
+##  Project Introduction
 This project implements a simple blockchain with the following features:
 - Each block stores transactions, proof of work, and hash of the previous block.
 - Blocks are linked together to form a chain (immutable ledger).
@@ -15,7 +14,7 @@ This project implements a simple blockchain with the following features:
 
 ---
 
-## ⚙️ Installation Steps
+##  Installation Steps
 1. **Clone the repository**
    ```bash
    git clone https://github.com/your-username/BlockchainCat-1_173.git
@@ -28,7 +27,7 @@ This project implements a simple blockchain with the following features:
    
    python node.py
 
-## 🚀 Usage Guide
+## Usage Guide
 
 You can interact with the blockchain through API endpoints using a browser, Postman, or command-line tools like curl.
 
@@ -55,7 +54,7 @@ curl -X POST http://127.0.0.1:5000/add_transaction \
 -H "Content-Type: application/json" \
 -d '{"sender":"Alice","receiver":"Bob","amount":50}'
 
-## 🌐 API Endpoints
+## API Endpoints
 
 GET /mine_block → Mine a new block
 
@@ -73,7 +72,7 @@ Example JSON body:
   "amount": 50
 }
 
-## 📖 References
+## References
 
 Bitcoin Whitepaper by Satoshi Nakamoto
 
